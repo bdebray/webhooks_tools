@@ -155,7 +155,7 @@ class WebhooksSummary
 end
     
 if (!ARGV[0])
-	print "Usage: ruby webhooks_summary.rb config_file_name.json\n"
+	print "Usage: ruby webhooks_owner_summary.rb config_file_name.json\n"
 else
 	rtr = WebhooksSummary.new ARGV[0]
 	rtr.run
